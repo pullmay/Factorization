@@ -27,7 +27,7 @@ function func() {
 	// 出力の形式を整える
 	for (var i=0; i<a.length; i++) {
 		string += String(a[i]);
-		if (i != a.length -1) {
+		if (i != a.length - 1) {
 			string += " * ";
 		}
 	}
