@@ -28,7 +28,7 @@ function func() {
 		a.push(x);
 		p.push(1);
 	}
-  // 結果を表示
+  	// 結果を表示
 	const res1 = "prime factorization : " + a;
 	const res2 = "power : " + p;
 	document.getElementById("answer").innerHTML = res1;
