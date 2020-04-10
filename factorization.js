@@ -1,4 +1,3 @@
-<script>
 function show() {
   var input_n=document.getElementById("number").value;
   if ( !/^(\-|\+)?([0-9]+)$/.test(input_n) ){
@@ -25,4 +24,3 @@ function show() {
   result.appendChild(t)
   return false;
 }
-</script>
