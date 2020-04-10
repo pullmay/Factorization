@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>test</title>
+	<title>Factorization</title>
 	<meta charset="UTF-8">
-	<script type="text/javascript" src="./factorization.js"></script>
+	<!-- ファイルの読み込み -->
+	<script type="text/javascript" src="factor.js"></script>
 </head>
 <body>
 <h1>Factorization</h1>
-<p>素因数分解</p>
-<!-- フォーム -->
-<form name="param" action="#" >
-	<!-- テキストボックス -->
-	<input name="textBox1" id="num" type="text" value="" />
-	<!-- ボタン部分 -->
-	<input type="button" value="Exec" onclick="func();" />
-</form>
+<p>整数を入力してね</p>
+<!-- 入力欄 -->
+<input type="text" id="num" name="name">
+<input type="button" value="Exec" onclick="func();" />
+<!-- 出力 -->
 <hr/>
 <div id="answer"></div>
 <div id="power"></div>
