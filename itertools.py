@@ -29,6 +29,8 @@ print(list(itertools.combinations(lst, 2)))
 
 
 # 順列
+# 第一引数: 第一引数にイテラブル(e.g., リストや集合set型)
+# 第二引数: 選択する個数
 lst = [7, 8, 9]
 p = itertools.permutations(lst, len(lst))
 
