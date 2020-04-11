@@ -3,6 +3,7 @@ import itertools
 # combinations
 # 第一引数: 第一引数にイテラブル(e.g., リストや集合set型)
 # 第二引数: 選択する個数
+lst = list(range(5)) # [0,1,2,3,4]
 c = itertools.combinations(lst, 2)
 
 print(c)
@@ -21,3 +22,18 @@ for v in c:
 # (2, 3)
 # (2, 4)
 # (3, 4)
+
+
+# 順列
+lst = [7, 8, 9]
+p = itertools.permutations(lst, len(lst))
+
+for v in p:
+	print(v)
+	
+# (7, 8, 9)
+# (7, 9, 8)
+# (8, 7, 9)
+# (8, 9, 7)
+# (9, 7, 8)
+# (9, 8, 7)
