@@ -1,8 +1,8 @@
 function func() {
 	x = document.getElementById("num").value;
-	x = parseInt(x);
-	// 変数
-	var string = String(x) + " = ";
+	x = parseInt(x); // String to Int
+	// 変数の定義
+	var string = String(x) + " = "; // for output
 	var n = Math.floor(Math.sqrt(x));
 	var r = 0;
 	var a = [];

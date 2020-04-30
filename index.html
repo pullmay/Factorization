@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-	<title>Factorization</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="factorization.js"></script>
-</head>
-<body>
-	<div>
-		<h1>Integer Factorization</h1>
-		<p>正の整数を入力してね</p>
-	</div>
-	<!-- フォーム -->
-	<form onSubmit="func();return false;">
-		<input type="type" id="num" pattern="^[0-9]+$" name="number">
-		<input type="submit" value="Exec">
-	</form>
-	<hr/>
-	<div id="answer"></div>
-</body>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Factorization</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="stylesheet.css">
+		<script type="text/javascript" src="factorization.js"></script>
+	</head>
+	<body>
+		<div class="title">
+			<h1>Integer Factorization</h1>
+			<p>正の整数を入力してね</p>
+		</div>
+		<!-- フォーム -->
+		<div class=factor>
+			<form onSubmit="func();return false;">
+				<input type="type" id="num" pattern="^[0-9]+$" name="number">
+				<input type="submit" value="Exec">
+			</form>
+			<hr/>
+			<div id="answer"></div>
+		</div>
+	</body>
 </html>
